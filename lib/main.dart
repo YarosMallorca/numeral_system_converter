@@ -1,4 +1,6 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:numeral_systems/home_screen.dart';
 import 'package:numeral_systems/providers/theme_provider.dart';
 import 'package:numeral_systems/utils/preferences_manager.dart';
@@ -16,6 +18,13 @@ class NumeralSystems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ThemeMode selectedThemeMode = PreferencesManager.getTheme();
+
+    if (!kIsWeb) {
+      SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
+    }
 
     return ChangeNotifierProvider(
       create: (_) => ThemeProvider(selectedThemeMode: selectedThemeMode),

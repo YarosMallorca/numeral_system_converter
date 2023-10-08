@@ -17,6 +17,21 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.3.3
 
 flutter:
   uses-material-design: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#1a1a1a"
+  image: assets/logo.png
+  image_dark: assets/logo_inverted.png
+
+  android_12:
+    image: assets/A12_logo.png
+    image_dark: assets/A12_logo_inverted.png
+    icon_background_color: "#ffffff"
+    icon_background_color_dark: "#1a1a1a"
+  android: true
+  ios: false
