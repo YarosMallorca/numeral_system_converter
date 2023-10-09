@@ -1,0 +1,13 @@
+{
+    "appName": "Conversión Numérica",
+    "appDeveloper": "Por Yaros",
+    "binary": "Binario",
+    "octal": "Octal",
+    "hexadecimal": "Hexadecimal",
+    "decimal": "Decimal",
+    
+    "changeLanguage": "Cambiar Idioma",
+    "cancel": "Cancelar",
+    "apply": "Aplicar",
+    "copiedText": "Copiado al Portapapeles"
+}

@@ -1,0 +1,13 @@
+{
+    "appName": "Sistema Numèric",
+    "appDeveloper": "Per Yaros",
+    "binary": "Binari",
+    "octal": "Octal",
+    "hexadecimal": "Hexadecimal",
+    "decimal": "Decimal",
+    
+    "changeLanguage": "Canviar Idioma",
+    "cancel": "Cancel·lar",
+    "apply": "Aplicar",
+    "copiedText": "Copiat al Porta-retalls"
+}

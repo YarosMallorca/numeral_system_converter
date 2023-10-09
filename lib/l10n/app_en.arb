@@ -1,0 +1,13 @@
+{
+    "appName": "Numeral System Converter",
+    "appDeveloper": "By Yaros",
+    "binary": "Binary",
+    "octal": "Octal",
+    "hexadecimal": "Hexadecimal",
+    "decimal": "Decimal",
+    
+    "changeLanguage": "Change Language",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "copiedText": "Copied to Clipboard"
+}
